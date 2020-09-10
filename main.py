@@ -8,7 +8,7 @@ except ImportError:
 
 
 DEFAULT_CHROME_PATH = r'C:\Program Files'
-CHROME_KEY = fr'SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe'
+CHROME_KEY = r'SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe'
 QUERY_AND_SET_RIGHTS = reg.KEY_QUERY_VALUE | reg.KEY_SET_VALUE
 KEY_INFO = dict(
     key=reg.HKEY_LOCAL_MACHINE,
@@ -35,7 +35,7 @@ def is_valid(parser, file_path):
 
 
 def main():
-    parser = ArgumentParser(description="Chrome Custom App Path")
+    parser = ArgumentParser(description='Chrome Custom App Path')
     parser.add_argument(
         '-p',
         dest='custom_path',
