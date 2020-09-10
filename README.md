@@ -1,5 +1,5 @@
 # Custom Chrome [App Path](https://docs.microsoft.com/en-us/windows/win32/shell/app-registration#using-the-app-paths-subkey)
-Patch script for customizing the Chrome App Path under Windows.  
+Patch script for customizing the Chrome App Path under Windows.\
 Allows passing custom arguments for the default registered `chrome` command.
 
 ## Usage
